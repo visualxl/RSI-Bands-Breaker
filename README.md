@@ -12,9 +12,10 @@
 3. Moving Average (50-period Simple Moving Average)
 
 <b>Entry Rules:</b>
-1. <b>Bollinger Bands Squeeze:</b> Wait for the Bollinger Bands to contract significantly, indicating a period of low volatility.
+1. <b>Bollinger Bands Squeeze:</b> Wait for the Bollinger Bands to contract significantly, indicating a period of low volatility. A squeeze must not be more than X distance defined by the user. Default to 20 pips.
 2. <b>RSI Confirmation:</b> When the Bollinger Bands contract, check the RSI. For long trades, the RSI should be above 50, and for short trades, the RSI should be below 50.
 3. <b>Breakout Confirmation:</b> Once the Bollinger Bands expand after a squeeze, place a buy order if the price breaks above the upper Bollinger Band for a long trade, or place a sell order if the price breaks below the lower Bollinger Band for a short trade.
+4. <b>50 SMA Confirmation:</b> Before executing the trade, you should also confirm the direction of the 50 SMA. The 50 SMA acts as a trend filter to ensure that your trade aligns with the longer-term trend. If the 50 SMA is sloping upwards, it confirms the bullish trend for a long trade, and if it's sloping downwards, it confirms the bearish trend for a short trade.
 
 <b>Position Sizing</b>: Risk no more than a predetermined percentage of your trading capital on each trade (e.g., 1-2%).
 
