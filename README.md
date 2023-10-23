@@ -22,3 +22,7 @@
 <b>Stop-Loss and Take-Profit:</b>
 1. Set a fixed stop-loss level just beyond the opposite Bollinger Band (opposite to your trade direction) from your entry point.
 2. Set a take-profit level based on your risk-reward ratio, typically aiming for a 2:1 or 3:1 risk-reward ratio.
+
+<H1>Conclusion</H1>
+This strategy seems to be profitable for AUD/JPY H1. However, it trades very little to get any meaningful statistics.
+You are free to play around with the code and see if you can modify it better.
